@@ -1,0 +1,26 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[[source]]
+name = "pytorch"
+url = "https://download.pytorch.org/whl/cu113"
+verify_ssl = false
+
+[packages]
+torch = "*"
+adapter-transformers = "*"
+pandas = "*"
+loguru = "*"
+scikit-learn = "*"
+click = "*"
+datasets = "*"
+sentencepiece = "*"
+protobuf = "3.20.1"
+ipython = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.10"

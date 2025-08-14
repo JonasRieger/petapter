@@ -1,0 +1,49 @@
+train
+---
+
+rel per iter
+& AG & Yahoo & Yelp \\
+base & PETapter & 0.49 & 0.52 & 0.52\\
+base & PET & 0.39 & 0.41 & 0.40\\
+large & PETapter & 0.90 & 0.95 & 0.93\\
+large & PET & 1 & 1 & 1\\
+-
+seconds per iter for n=100 & & 8.0 & 7.6 & 7.7\\
+
+---
+
+
+train
+---
+
+PETapter/PEFT (30 iterations, batch_size=1)
+& AG & Yahoo & Yelp \\
+base & 117 & 119 & 119\\
+large & 215 & 217 & 214\\
+
+PET (10 iterations, batch_size=1)
+& AG & Yahoo & Yelp \\
+base & 31 & 31 & 31\\
+large & 80 & 76 & 77\\
+
+---
+
+PETapter/PEFT (30 iterations, batch_size=2)
+& AG & Yahoo & Yelp \\
+base & 59 & 60 & 58\\
+large & 117 & 120 & 120\\
+
+---
+
+test
+---
+
+PETapter/PEFT
+& AG & Yahoo & Yelp \\
+base & 74 & 587 & 488\\
+large & 145 & 1166 & 979\\
+
+PET
+& AG & Yahoo & Yelp \\
+base & 55 & 480 & 403\\
+large & 142 & 1200 & 1020\

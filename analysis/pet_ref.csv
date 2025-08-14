@@ -1,0 +1,13 @@
+measure,label,dataset,pvp,nshot,value
+Accuracy,Overall,ag,qa,10,0.8077
+Accuracy,Overall,ag,qa,100,0.8744
+Accuracy,Overall,ag,prompt,10,0.8174
+Accuracy,Overall,ag,prompt,100,0.8736
+Accuracy,Overall,yelp,qa,10,0.4500
+Accuracy,Overall,yelp,qa,100,0.5550
+Accuracy,Overall,yelp,prompt,10,0.4547
+Accuracy,Overall,yelp,prompt,100,0.5545
+Accuracy,Overall,yahoo,qa,10,0.5776
+Accuracy,Overall,yahoo,qa,100,0.6520
+Accuracy,Overall,yahoo,prompt,10,0.6103
+Accuracy,Overall,yahoo,prompt,100,0.6640
