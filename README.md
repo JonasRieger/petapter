@@ -1,7 +1,7 @@
 # PETapter
 
 ## Leveraging PET-style classification heads for modular few-shot parameter-efficient fine-tuning
-PETapter is a combination of PET-style classification heads with PEFT methods. PETapter requires less computational resources and is easier to share (e.g., only 16 MB compared to 2.1 GB of disk space needed) in the research community due to its modularity. This way it makes the idea of PET easily accessible in PEFT settings. In addition, it provides more robust predictions than PET, especially on real-world datasets. As a result, it achieves PET performance and increased reliability of the results while offering all the advantages of PEFT. It can be trained faster with higher parameter efficiency and without catastrophic forgetting.
+PETapter is a combination of PET-style classification heads with PEFT methods. PETapter requires less computational resources and is easier to share in the research community due to its modularity and higher parameter efficiency (e.g., only 16 MB compared to 2.1 GB of disk space needed).  It can be trained faster and without catastrophic forgetting. This way it makes the idea of PET easily accessible in PEFT settings. It achieves PET performance and increased reliability (i.e. more robust predictions than PET, especially on real-world datasets) of the results while offering all the advantages of PEFT.
 
 * PET = pattern-exploiting training
 * PEFT = parameter-efficient fine-tuning
